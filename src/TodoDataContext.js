@@ -8,11 +8,6 @@ export function TodoDataContextProvider({children}) {
     const [todo, setTodo] = useState([]);
 
 
-    const [filter, setFilter] = useState('ALL');
-
-
-    const [todoFilter, setTodoFilter] = useState(todo);
-
 
     const [checked, setChecked] = React.useState([0]);
 
