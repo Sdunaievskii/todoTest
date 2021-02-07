@@ -41,15 +41,7 @@ const AddTodo = () => {
                     Add Todo
                 </Button>
             </form>
-            {/*<Button onClick={() => btnFilter('COMP')} className={classes.btn} variant="contained" color="primary">*/}
-            {/*    Completed / No Completed*/}
-            {/*</Button>*/}
-            {/*<Button onClick={() => btnFilter('IMP')} className={classes.btn} variant="contained" color="primary">*/}
-            {/*    Important*/}
-            {/*</Button>*/}
-            {/*<Button onClick={() => btnFilter('ALL')} className={classes.btn} variant="contained" color="primary">*/}
-            {/*    ALL*/}
-            {/*</Button>*/}
+        
         </div>
     )
 }
