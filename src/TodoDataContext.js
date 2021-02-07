@@ -41,22 +41,7 @@ export function TodoDataContextProvider({children}) {
         setTodo((todo) => todo.filter((e) => e.id !== id));
     }
 
-    const btnFilter = (value) => {
-
-        if (value === 'ALL') {
-            setFilter(filter => 'ALL')
-
-            setTodoFilter(todoFilter => todo)
-        }
-        if (value === 'COMP') {
-            setFilter(filter => 'COMP')
-
-        }
-        if (filter === 'IMP') {
-            setFilter(filter => 'IMP')
-        }
-    }
-
+   
 
     return (
         <TodoDataContext.Provider value={{todo, checked, handleToggle, deleteTodo, setTodo, btnFilter,todoFilter,setTodoFilter}}>
