@@ -1,0 +1,21 @@
+.root{
+    width: 200px;
+}
+.container{
+    margin-top: 25px;
+}
+.completed {
+    text-decoration: line-through;
+}
+
+.inp{
+    padding: 14px;
+    border-radius: 3px;
+    border: 1px solid #3f51b5;
+    margin-right: 15px;
+}
+.number {
+    font-weight: bold;
+    margin-right: 5px;
+}
+

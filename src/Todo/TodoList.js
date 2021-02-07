@@ -1,9 +1,22 @@
-import React from "react";
+import React, {useContext} from "react";
+import classCss from './styleTodo.module.css'
+import TodoItems from "./TodoItems";
+import AddTodo from "./AddTodo";
 
-const Todo = (props) =>{
-    return(
-        <div>
 
+
+
+const TodoList = (props) => {
+
+    return (
+        <div className={classCss.container}>
+            <AddTodo/>
+
+            <TodoItems/>
         </div>
     )
 }
+
+export default TodoList;
+
+
